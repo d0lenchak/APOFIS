@@ -1,0 +1,15 @@
+Where does the Summary information come from?
+Everything is linked by p-code: PXXX YYYY-ZZZZ/ZZZ/.ZZZ
+PXXX links all financials via project code, and YYYY-ZZZZ/ZZZ/.ZZZ links all operationals via study ID
+
+CDU: [CDU] of selected CDU from FULL_MAP.xlsx
+Target: [Program] of selected Program from FULL_MAP.xlsx
+Indication: [Indication] of selected Study from Study Daily Report.xlsx
+Program: [Primary] of selected Program from FULL_MAP.xlsx
+Study/Code: [Account?..] of selected Program from CORE_Actuals/Forecast.xlsx
+Study-Specific Codes: count of actual studies within a Program, based on Hyperion Code syntax (..-1231 vs Gen.Gen..)
+
+Phase: [Phase] of selected Study from Study Daily Report.xlsx
+Status: [Operational Status (COMPASS)] of selected Study from Study Daily Report.xlsx
+Enrollment:[# Enrollment (Actual) / # Enrollment (Planned] of selected Study from Study Daily Report.xlsx
+
